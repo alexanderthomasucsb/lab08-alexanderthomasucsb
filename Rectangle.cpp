@@ -25,8 +25,10 @@ void Rectangle::setWidth(double w) {
 void Rectangle::setLength(double l) {
     length = l;
 }
+double Rectangle :: area() const {
+	return width * length;
+}
 
-// IMPLEMENT THE AREA METHOD HERE
 
 
 

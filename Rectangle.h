@@ -10,8 +10,8 @@ public:
     double getLength() const;       // accessor for length
     void setWidth(double);          // mutator for width
     void setLength(double);         // mutator for length
+    double area() const;
 
-    // DECLARE (const) METHOD TO RETURN AREA OF RECTANGLE
 
     
 

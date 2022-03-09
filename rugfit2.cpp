@@ -1,5 +1,5 @@
 // rugfit2.cpp - calculates fit of rug to a floor
-// YOUR NAME(S), TODAY'S DATE
+// Alexander Thomas, 3/9/22
 
 #include <iostream>
 using namespace std;
@@ -18,7 +18,12 @@ int main() {
     cout << "enter width and length of floor: ";
     cin >> width >> length;
     const Rectangle floor(width, length); // note: const object
-
+    
+    cout << "enter width and length of rug: ";
+    cin >> width >> length;
+    rug.setLength(length);
+    rug.setWidth(width);
+    
     // RESET Rectangle NAMED "rug" FOR SIZES INPUT BY USER
     // (instead of the (0,0) used when it was created.
     
